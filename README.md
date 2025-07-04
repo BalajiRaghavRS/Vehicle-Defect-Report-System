@@ -81,3 +81,21 @@ DB_PORT=5432
 DB_NAME=your_db_name
 DB_USER=your_db_user
 DB_PASSWORD=your_db_password
+
+🚀 App Pages
+Path	Description
+/user	User login/signup
+/admin	Admin login/signup
+/user/home	Submit vehicle defect
+/admin/home	View/delete all reports
+
+✨ Features
+Session-based authentication (protected routes)
+
+Separate user and admin login
+
+Form submission and defect tracking
+
+Admin-only delete access
+
+PostgreSQL integration
