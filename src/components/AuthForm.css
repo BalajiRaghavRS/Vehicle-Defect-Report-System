@@ -1,0 +1,39 @@
+.auth-card{
+  width:320px;
+  padding:2rem;
+  border-radius:1rem;
+  box-shadow:0 8px 32px rgba(0,0,0,.12);
+}
+.auth-card form{
+  display:flex;
+  flex-direction:column;
+  gap:1rem;
+}
+.auth-card input{
+  padding:.75rem 1rem;
+  border:1px solid #ccc;
+  border-radius:.5rem;
+  font-size:1rem;
+}
+.auth-card button{
+  padding:.75rem;
+  font-size:1rem;
+  font-weight:600;
+  background:#2b71f8;
+  color:#fff;
+  border:none;
+  border-radius:.5rem;
+  cursor:pointer;
+}
+.auth-card button:hover{
+  filter:brightness(1.05);
+}
+.toggle{
+  margin-top:1rem;
+  font-size:.9rem;
+  text-align:center;
+}
+.toggle span{
+  color:#2b71f8;
+  cursor:pointer;
+}

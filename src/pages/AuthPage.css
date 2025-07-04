@@ -1,0 +1,10 @@
+.auth-page{
+  min-height:100vh;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+}
+.auth-page h1{
+  margin-bottom:1.5rem;
+}
